@@ -2,11 +2,9 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 
-Click_rate = st.number_input('How many clicks you got?', step=1)
-#Click_rate = input('Click Through Rate:')
-web_rate =st.number_input('whats your web count?',step=1)
-#print(Click_rate)
-#st.write(Click_rate)
+Click_rate = st.number_input('Click Through Rate?', step=1)
+
+web_rate =st.number_input('Website Conversation Rate?',step=1)
 
 a=Click_rate
 b=web_rate
