@@ -16,9 +16,9 @@ def formula_lg(a,b):
     return c
 #print(formula_lg(a))
 st.write('This is the answer=',formula_lg(a,b))
-#data_set =Path(__file__).parents[1] /'/venu/testCVS.csv'
+data_set =Path(__file__).parents[1] /'./testCVS.csv'
 #data_set = "C:\\Users\\wil\\PycharmProjects\\pythonProject1\\pythonProject\\LegmarkCost\\venv\\testCVS.csv"
-data_set = "https://github.com/W11P/LEGMARKCOST/blob/94a6d9d58a867c3edbd137f3b2c4b902856af5f7/testCVS.csv"
+#data_set = "https://github.com/W11P/LEGMARKCOST/blob/94a6d9d58a867c3edbd137f3b2c4b902856af5f7/testCVS.csv"
 #st.write(data_set)
 df = pd.read_csv(data_set)
 
